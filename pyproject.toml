@@ -5,7 +5,7 @@ description = "The UltimateSmoother preserves low-frequency swings in the input 
 readme = "README.md"
 requires-python = ">=3.8"
 authors = [
-  { name="pcktm" },
+  { name="pcktm", email="hi@kopanko.com" }
 ]
 classifiers = [
   "Development Status :: 5 - Production/Stable",
@@ -27,3 +27,11 @@ keywords = ["smoothing", "filtering", "time series", "low-pass", "high-pass", "b
 dependencies = [
     "numpy>=1.24.4",
 ]
+
+[project.urls]
+Homepage = "https://github.com/pcktm/ultimatesmoother"
+Issues = "https://github.com/pcktm/ultimatesmoother/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
